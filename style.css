@@ -8,13 +8,13 @@ body{
     height: 30px;
     width: 30px;
     object-fit: contain;
+    align-items: center;
     border-radius: 8px;
-    margin-right: 10px;
+    margin: 5px;
     transition: transform 0.3s ease;
 }
 
 .general, .anime, .ai, .study, .practice{   
-    /* display: flex; */
     align-items: center;  
     display: flex;
     background-color:#344CB7;
@@ -26,9 +26,15 @@ body{
 
 img:hover{
     transform: scale(1.2);
-    color: #212121;
     cursor: pointer;
+    filter: drop-shadow(0 0 6px #FFEB00);
 }
 
+h1, h2 {
+    color: #FFEB00;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
 
 /* #577BC1*/
