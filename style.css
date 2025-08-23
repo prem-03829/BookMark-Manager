@@ -6,15 +6,17 @@ body{
 
 .container img{
     height: 30px;
+    width: 30px;
+    object-fit: contain;
     border-radius: 8px;
     margin-right: 10px;
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease;
 }
 
 .general, .anime, .ai, .study, .practice{   
     /* display: flex; */
     align-items: center;  
-    display: block;
+    display: flex;
     background-color:#344CB7;
     padding: 10px;
     margin: 10px;
@@ -25,8 +27,8 @@ body{
 img:hover{
     transform: scale(1.2);
     color: #212121;
-    transition: transform 0.2s ease;
     cursor: pointer;
 }
+
 
 /* #577BC1*/
