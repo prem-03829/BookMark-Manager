@@ -1,0 +1,32 @@
+body{
+    background-color:#000957;
+    color: #FFEB00;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container img{
+    height: 30px;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: transform 0.5s ease;
+}
+
+.general, .anime, .ai, .study, .practice{   
+    /* display: flex; */
+    align-items: center;  
+    display: block;
+    background-color:#344CB7;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+img:hover{
+    transform: scale(1.2);
+    color: #212121;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* #577BC1*/
