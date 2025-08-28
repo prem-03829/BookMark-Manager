@@ -14,7 +14,7 @@ body{
     transition: transform 0.3s ease;
 }
 
-.general, .anime, .ai, .study, .practice{   
+.general, .anime, .ai,.web-dev, .study, .practice{   
     align-items: center;  
     display: flex;
     background-color:#344CB7;
