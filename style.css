@@ -1,39 +1,49 @@
 body{
-    background-color:#000957;
-    color: #FFEB00;
+    background-image: url(icon/bg_wallpaper.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
     font-family: Quicksand;
+}
+ 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
 }
 
 .container img{
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     object-fit: contain;
     align-items: center;
     border-radius: 8px;
     margin-right: 20px;
-    transition: transform 0.3s ease;
+    cursor: pointer;
+    transition: transform 0.3s ease,filter 0.3s ease;
 }
 
-.general, .anime, .ai, .web-dev, .edit, .game, .study, .practice{   
-    align-items: center;  
+.flex-row{   
     display: flex;
-    background-color:#344CB7;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(201, 199, 199, 0.5);
+    max-width: 400px;
     padding: 10px;
     border-radius: 18px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+
 img:hover{
     transform: scale(1.2);
-    cursor: pointer;
-    filter: drop-shadow(0 0 6px #FFEB00);
+    filter: drop-shadow(0 0 4px white);
 }
 
 h1, h2 {
-    color: #FFEB00;
+    color: white;
     margin-left: 10px;
     margin-top: 20px;
     font-size: 1.5rem;
 }
-
-/* #577BC1*/
